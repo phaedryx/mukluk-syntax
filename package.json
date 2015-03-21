@@ -1,0 +1,16 @@
+{
+  "author": "Tad Thorley",
+  "contributors": [{
+    "name": "Tad Thorley",
+    "url": "tadthorley.com"
+  }],
+  "name": "mukluk-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A dark theme inspired by the Bootflat color scheme",
+  "repository": "https://github.com/atom/mukluk-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}

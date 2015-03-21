@@ -1,0 +1,27 @@
+.coffee {
+  .operator, .keyword.operator {
+    color: @gray4;
+  }
+  .keyword, .language.constant, .function.type,
+  .storage.modifier, .storage.type {
+    color: @sunflower-light;
+  }
+  .numeric.constant {
+    color: @blue-jeans-light;
+  }
+  .regexp, .string.regexp {
+    color: @rose-light;
+    .punctuation {
+      color: @rose-light;
+    }
+  }
+  .embedded.source {
+    color: @mint-light;
+  }
+  .language.variable {
+    color: @lavendar-light;
+  }
+  .variable.other {
+    color: @aqua-light;
+  }
+}

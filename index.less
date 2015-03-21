@@ -1,0 +1,128 @@
+@gray0: #393F47;
+@gray1: #434A54;
+@gray2: #656D78;
+@gray3: #AAB2BD;
+@gray4: #CCD1D9;
+@gray5: #E6E9ED;
+@gray6: #F5F7FA;
+
+@blue-jeans-light : #5D9CEC;
+@blue-jeans-dark  : #4A89DC;
+@aqua-light       : #4FC1E9;
+@aqua-dark        : #3BAFDA;
+@mint-light       : #48CFAD;
+@mint-dark        : #37BC9B;
+@grass-light      : #A0D468;
+@grass-dark       : #8CC152;
+@sunflower-light  : #FFCE54;
+@sunflower-dark   : #F6BB42;
+@bittersweet-light: #FC6E51;
+@bittersweet-dark : #E9573F;
+@grapefruit-light : #ED5565;
+@grapefruit-dark  : #DA4453;
+@lavendar-light   : #AC92EC;
+@lavendar-dark    : #967ADC;
+@rose-light       : #EC87C0;
+@rose-dark        : #D770AD;
+
+// General colors
+@syntax-text-color: @gray5;
+@syntax-cursor-color: @gray6;
+@syntax-selection-color: @gray4;
+@syntax-selection-flash-color: @gray5;
+@syntax-background-color: @gray0;
+
+// Guide colors
+@syntax-wrap-guide-color: @gray2;
+@syntax-indent-guide-color: @gray2;
+@syntax-invisible-character-color: @gray2;
+
+// For find and replace markers
+@syntax-result-marker-color: @gray5;
+@syntax-result-marker-color-selected: @gray6;
+
+// Gutter colors
+@syntax-gutter-text-color: @gray4;
+@syntax-gutter-text-color-selected: @gray6;
+@syntax-gutter-background-color: @gray1;
+@syntax-gutter-background-color-selected: @syntax-background-color;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue-jeans-light;
+@syntax-color-added: @sunflower-light;
+@syntax-color-modified: @bittersweet-light;
+@syntax-color-removed: @grapefruit-light;
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .wrap-guide {
+    background-color: @syntax-wrap-guide-color;
+  }
+
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+  }
+  .gutter .cursor-line {
+    background-color: @syntax-gutter-background-color-selected;
+  }
+  .line-number.cursor-line-no-selection {
+    background-color: @syntax-gutter-background-color-selected;
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
+    color: @lavendar-light;
+  }
+
+  .invisible {
+    color: @syntax-text-color;
+  }
+
+  .cursor {
+    border-color: @syntax-cursor-color;
+  }
+  .class.support {
+    color: @bittersweet-light;
+  }
+  .regexp {
+    color: @rose-light;
+  }
+  .numeric.constant {
+    color: @blue-jeans-light;
+  }
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+  .string {
+    color: @grass-light;
+  }
+}
+
+.bracket-matcher .region {
+  border-bottom: 1px dotted @mint-light;
+  margin-top: -1px;
+  opacity: .7;
+}
+.comment {
+  color: @gray2;
+}
+
+@import 'markdown';
+@import 'ruby';
+@import 'js';
+@import 'yaml';
+@import 'css';
+@import 'html';
+@import 'haml';
+@import 'coffeescript';
