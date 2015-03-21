@@ -12,3 +12,12 @@ It currently has specific syntax support for the following:
   * markdown
   * ruby
   * yaml
+
+#### Ruby
+![](https://raw.githubusercontent.com/phaedryx/mukluk-screenshots/master/ruby.png)
+
+#### json
+![](https://raw.githubusercontent.com/phaedryx/mukluk-screenshots/master/json.png)
+
+#### html
+![](https://raw.githubusercontent.com/phaedryx/mukluk-screenshots/master/html.png)
