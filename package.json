@@ -8,7 +8,7 @@
   ],
   "name": "mukluk-syntax",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A dark theme inspired by the Bootflat color scheme",
   "repository": "https://github.com/phaedryx/mukluk-syntax",
   "license": "MIT",
