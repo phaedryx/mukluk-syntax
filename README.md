@@ -13,8 +13,11 @@ It currently has specific syntax support for the following:
   * ruby
   * yaml
 
-#### Ruby
+#### ruby
 ![](https://raw.githubusercontent.com/phaedryx/mukluk-screenshots/master/ruby.png)
+
+#### markdown
+![](https://raw.githubusercontent.com/phaedryx/mukluk-screenshots/master/markdown.png)
 
 #### json
 ![](https://raw.githubusercontent.com/phaedryx/mukluk-screenshots/master/json.png)
