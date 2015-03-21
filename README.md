@@ -9,8 +9,11 @@ It currently has specific syntax support for the following:
   * html
   * javascript
   * json
+  * less
+  * lua
   * markdown
   * ruby
+  * sass
   * yaml
 
 #### ruby
