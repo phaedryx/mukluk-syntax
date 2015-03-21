@@ -1,5 +1,14 @@
-# mukluk-syntax theme
+## Mukluk: An Atom Syntax Theme
 
-A short description of your theme.
+Mukluk is a dark theme with a color scheme inspired by the [Bootflat](https://bootflat.github.io/documentation.html) color scheme.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+It currently has specific syntax support for the following:
+  * coffeescript
+  * css
+  * haml
+  * html
+  * javascript
+  * json
+  * markdown
+  * ruby
+  * yaml
