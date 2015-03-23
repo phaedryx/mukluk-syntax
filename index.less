@@ -70,9 +70,11 @@ atom-text-editor, :host {
   }
 
   .gutter {
+    color: #16181D;
     background-color: @syntax-gutter-background-color;
   }
   .gutter .cursor-line {
+    font-weight: bold;
     background-color: @syntax-gutter-background-color-selected;
   }
   .line-number.cursor-line-no-selection {
@@ -82,7 +84,8 @@ atom-text-editor, :host {
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color: @lavendar-light;
+    font-weight: normal;
+    color: @sunflower-light;
   }
 
   .invisible {
